@@ -26,7 +26,7 @@ export default function App() {
       <Suspense fallback={<Loader />}>
       
         <Routes>
-          {/* <Route path="/" element={<EventsBoardPage />} /> */}
+          <Route path="/" element={<EventsBoardPage />} />
            <Route path="/events" element={<EventsBoardPage />} />
            {/* <Route path="events/:eventId" element={<EventParticipantsPage />}> */}
             <Route path="/register/:eventId" element={<EventRegistrationPage />} />
