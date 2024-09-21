@@ -9,9 +9,9 @@ const EventRegistrationPage = lazy(() => import('../../pages/EventRegistrationPa
 const NotFoundPage = lazy(() =>
   import('../../pages/NotFoundPage/NotFoundPage')
 );
-// const EventParticipantsPage = lazy(() =>
-//   import('../../pages/EventParticipantsPage/EventParticipantsPage')
-// );
+const EventParticipantsPage = lazy(() =>
+  import('../../pages/EventParticipantsPage/EventParticipantsPage')
+);
 import css from './App.module.css';
 
 
@@ -30,7 +30,7 @@ export default function App() {
            <Route path="/events" element={<EventsBoardPage />} />
            {/* <Route path="events/:eventId" element={<EventParticipantsPage />}> */}
             <Route path="/register/:eventId" element={<EventRegistrationPage />} />
-            {/* <Route path="view" element={<EventParticipantsPage />} /> */}
+            <Route path="view/:eventId" element={<EventParticipantsPage />} />
           {/* </Route>  */}
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
