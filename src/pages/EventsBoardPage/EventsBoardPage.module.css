@@ -1,0 +1,23 @@
+.title{
+    color:#3838f6;
+}
+.list{
+    border: 1px solid #3838f6;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:10px;
+}
+.list_item{
+    border: 1px solid #3838f6;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:5px;
+    padding: 10px;
+}
+.container_link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

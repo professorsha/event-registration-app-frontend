@@ -1,0 +1,14 @@
+.title{
+    color:#3838f6;
+}
+.form{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.container_radiobox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
